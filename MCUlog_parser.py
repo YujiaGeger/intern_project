@@ -2,6 +2,7 @@ import os
 import re
 import sys
 from datetime import datetime, timedelta
+#xin de donng xi
 def read_logs(mcu_log_path, error_time):
     """
     读取日志文件并提取在指定时间之前的ErrorManager错误日志。
